@@ -1,0 +1,127 @@
+@media screen and (max-width: 950px) {
+  h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 50px;
+  }
+  .header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    background: #333;
+    color: #f5f5f5;
+  }
+  .spHeader {
+    height: 50px;
+    width: 100%;
+    color: #F5F5F5;
+    text-align: center;
+    line-height: 50px;
+  }
+  .headerTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .headerLogoSP {
+    display: block;
+    padding: 0 10px 5px 10px;
+  }
+  .headerLogoPC {
+    display: none;
+  }
+  .headerPCMenu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 951px) {
+  .header {
+    padding: 0;
+    color: #C9AD1C;
+  }
+  .headerTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 900;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3.0rem;
+    line-height: 100px;
+    width: 216px;
+  }
+  .headerLogoSP {
+    display: none;
+  }
+  .headerLogoPC {
+    display: block;
+    padding: 20px 20px;
+    width: 60px;
+    height: 60px;
+  }
+  .headerPCMenu {
+    list-style-type: none;
+    height: 100px;
+    line-height: 100px;
+    font-size: 2.4rem;
+    position: absolute;
+    z-index: 800;
+    right: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .headerPCMenu-TheTrancells {
+    letter-spacing: 0rem;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .headerPCMenu-TheTrancells:hover {
+    letter-spacing: 0.1rem;
+  }
+  .headerPCItem {
+    display: block;
+  }
+  .headerPCItem-Icon {
+    line-height: 100px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .headerPCItem-Icon a {
+    width: 35px;
+  }
+  .headerPCItem-Icon a i {
+    color: #F5F5F5;
+    font-size: 2.6rem;
+    line-height: 100px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .headerPCItem-Icon a i:hover {
+    color: #C9AD1C99;
+  }
+  .pcMenuLink {
+    width: 100px;
+    text-align: center;
+    padding: 0;
+    display: block;
+    color: #C9AD1C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .pcMenuLink:hover {
+    letter-spacing: 0.3rem;
+  }
+}
+/*# sourceMappingURL=header.css.map */

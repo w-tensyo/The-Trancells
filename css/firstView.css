@@ -1,0 +1,427 @@
+@media screen and (max-width: 800px) {
+  .firstView {
+    position: relative;
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .firstView-spTop {
+    margin: 40px auto;
+  }
+  .firstView-spTop-Img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  .firstView-spTop-Under {
+    margin-top: 10px;
+    color: #F5F5F5;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+  }
+  .firstView-Content {
+    width: 100%;
+    height: 600px;
+  }
+  .firstView-Content-LeftContent {
+    display: none;
+  }
+  .firstView-Content-RightContent {
+    max-width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    color: #F5F5F5;
+  }
+  .firstView-Content-RightContent-Upper {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .firstView-Content-RightContent-Upper.Date {
+    font-size: 2.6rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+  }
+  .firstView-Content-RightContent-Upper.Distribution {
+    font-size: 2.6rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+  }
+  .firstView-Content-RightContent-Upper.Schedule {
+    font-size: 2.6rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    color: #B08A00;
+  }
+  .firstView-Content-RightContent-Border {
+    margin-bottom: 4px;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #F5F5F5;
+  }
+  .firstView-Content-RightContent-Border.Schedule {
+    background-color: #B08A00;
+  }
+  .firstView-Content-RightContent-Under {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+  }
+  .firstView-Content-RightContent-Under.DistWord {
+    font-size: 2.0rem;
+    margin-bottom: 5px;
+  }
+  .firstView-Content-RightContent-Under.Schedule {
+    margin-bottom: 20px;
+  }
+  .firstView-Content-RightContent-Img {
+    padding: 40px 0px;
+  }
+  .firstView-Content-RightContent-Img-Detail {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+  }
+  .firstView-Content-RightContent-Media {
+    width: 100%;
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .firstView-Content-RightContent-Media-Char {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    text-align: right;
+  }
+  .firstView-Content-RightContent-Media-Frame {
+    width: 100%;
+    height: 160px;
+    margin: 10px 0px 20px;
+  }
+  .firstView-Content-RightContent-Schedule {
+    color: #B08A00;
+    width: 100%;
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .firstView-Content-RightContent-Schedule-Date {
+    font-size: 1.2rem;
+  }
+  .firstView-Content-RightContent-Schedule-Description {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    font-weight: lighter;
+  }
+  .firstView-Content-RightContent-Schedule-Description a {
+    font-size: 1.6rem;
+    display: inline;
+    color: #b39800;
+    font-weight: lighter;
+    letter-spacing: 0rem;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .firstView-Content-RightContent-Schedule-Description a:hover {
+    color: #b79b00;
+    letter-spacing: 0rem;
+  }
+  .firstView-Content-RightContent-Btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+    margin: 40px 30px 0px;
+  }
+  .firstView-Content-RightContent-Btn.odd {
+    background-color: #E5D099;
+  }
+  .firstView-Content-RightContent-Btn.even {
+    background-color: #E5D099;
+  }
+  .firstView-Content-RightContent-Btn-Char {
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: #b39800;
+    font-size: 2.0rem;
+    letter-spacing: 1rem;
+    font-weight: lighter;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .firstView-Content-RightContent-Btn-Char:hover {
+    letter-spacing: 1.8rem;
+  }
+  .firstView-Content-RightContent-LogoLink {
+    display: block;
+    width: 380px;
+    padding: 100px 10px;
+  }
+  .firstViewTitleUpper {
+    color: #F5F5F5;
+    height: 280px;
+    line-height: 450px;
+    font-size: 8.6rem;
+    text-align: left;
+  }
+  .firstViewTitleUnder {
+    color: #F5F5F5;
+    font-size: 8.6rem;
+    text-align: left;
+  }
+  .firstViewTitleUnder.ABOUT {
+    letter-spacing: 1.4rem;
+  }
+  .firstViewTitleUnder.ACTIVITIES {
+    font-size: 6.9rem;
+    letter-spacing: -0.3rem;
+  }
+  .firstViewTitleUnder.SCHEDULE {
+    font-size: 6.9rem;
+    letter-spacing: -0.3rem;
+  }
+  .firstViewTitleUnder-Sub {
+    color: #F5F5F5;
+    width: 400px;
+    line-height: 76px;
+    height: 76px;
+    text-align-last: center;
+  }
+  .firstViewTitleUnder-Sub.Top {
+    font-size: 3.6rem;
+  }
+  .firstViewTitleUnder-Sub.About {
+    font-size: 2.4rem;
+    letter-spacing: 0.4rem;
+  }
+  .firstViewTitleUnder-Sub.Activities {
+    font-size: 2.4rem;
+    letter-spacing: 0.07rem;
+  }
+  .odd {
+    background-color: #333333;
+  }
+  .even {
+    background-color: #F5F5F5;
+    color: #B08A00;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .firstView {
+    position: relative;
+    width: 100%;
+    height: 824px;
+    padding: 100px 0px;
+  }
+  .firstView-Content {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .firstView-Content-LeftContent {
+    width: 400px;
+    height: 600px;
+    line-height: 600px;
+  }
+  .firstView-Content-RightContent {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    color: #F5F5F5;
+  }
+  .firstView-Content-RightContent-Upper {
+    font-weight: bold;
+  }
+  .firstView-Content-RightContent-Upper.Date {
+    font-size: 3.6rem;
+    letter-spacing: 0.4rem;
+  }
+  .firstView-Content-RightContent-Upper.Distribution {
+    font-size: 3.6rem;
+    letter-spacing: 1.1rem;
+  }
+  .firstView-Content-RightContent-Upper.Schedule {
+    font-size: 3.6rem;
+    letter-spacing: 0.4rem;
+  }
+  .firstView-Content-RightContent-Border {
+    margin-bottom: 4px;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #F5F5F5;
+  }
+  .firstView-Content-RightContent-Under {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: right;
+  }
+  .firstView-Content-RightContent-Under.DistWord {
+    font-size: 2.0rem;
+    margin-bottom: 5px;
+  }
+  .firstView-Content-RightContent-Under.Schedule {
+    margin-bottom: 20px;
+  }
+  .firstView-Content-RightContent-Img {
+    padding: 40px 0px;
+  }
+  .firstView-Content-RightContent-Img-Detail {
+    width: 100%;
+  }
+  .firstView-Content-RightContent-Media {
+    width: 100%;
+  }
+  .firstView-Content-RightContent-Media-Char {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    text-align: right;
+  }
+  .firstView-Content-RightContent-Media-Frame {
+    width: 100%;
+    height: 160px;
+    margin: 10px 0px 20px;
+  }
+  .firstView-Content-RightContent-Schedule {
+    width: 100%;
+  }
+  .firstView-Content-RightContent-Schedule-Date {
+    font-size: 1.2rem;
+  }
+  .firstView-Content-RightContent-Schedule-Description {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    font-weight: lighter;
+  }
+  .firstView-Content-RightContent-Schedule-Description a {
+    font-size: 1.6rem;
+    display: inline;
+    color: #b39800;
+    font-weight: lighter;
+    letter-spacing: 0rem;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    text-decoration: none;
+  }
+  .firstView-Content-RightContent-Schedule-Description a:hover {
+    color: #b79b0099;
+    letter-spacing: 0rem;
+  }
+  .firstView-Content-RightContent-Btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+  }
+  .firstView-Content-RightContent-Btn-Left {
+    width: 10px;
+    border-top: 2px solid #F5F5F5;
+    border-left: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
+  }
+  .firstView-Content-RightContent-Btn-Char {
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: #F5F5F5;
+    font-size: 2.4rem;
+    letter-spacing: 1rem;
+    font-weight: lighter;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .firstView-Content-RightContent-Btn-Char:hover {
+    letter-spacing: 1.8rem;
+  }
+  .firstView-Content-RightContent-Btn-Right {
+    width: 10px;
+    border-top: 2px solid #F5F5F5;
+    border-right: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
+  }
+  .firstView-Content-RightContent-LogoLink {
+    display: block;
+    width: 380px;
+    padding: 100px 10px;
+  }
+  .firstViewTitleUpper {
+    color: #F5F5F5;
+    height: 280px;
+    line-height: 450px;
+    font-size: 8.6rem;
+    text-align: left;
+  }
+  .firstViewTitleUnder {
+    color: #F5F5F5;
+    font-size: 8.6rem;
+    text-align: left;
+  }
+  .firstViewTitleUnder.ABOUT {
+    letter-spacing: 1.4rem;
+  }
+  .firstViewTitleUnder.ACTIVITIES {
+    font-size: 6.9rem;
+    letter-spacing: -0.3rem;
+  }
+  .firstViewTitleUnder.SCHEDULE {
+    font-size: 6.9rem;
+    letter-spacing: -0.3rem;
+  }
+  .firstViewTitleUnder-Sub {
+    color: #F5F5F5;
+    width: 400px;
+    line-height: 76px;
+    height: 76px;
+    text-align-last: center;
+  }
+  .firstViewTitleUnder-Sub.Top {
+    font-size: 3.6rem;
+  }
+  .firstViewTitleUnder-Sub.About {
+    font-size: 2.4rem;
+    letter-spacing: 0.4rem;
+  }
+  .firstViewTitleUnder-Sub.Activities {
+    font-size: 2.4rem;
+    letter-spacing: 0.07rem;
+  }
+  .firstViewFooter {
+    width: 100%;
+    height: 50px;
+  }
+  .firstViewFooterCopyright {
+    color: #F5F5F5;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .firstViewFooter.biography {
+    background-color: #333333;
+  }
+}
+/*# sourceMappingURL=firstView.css.map */

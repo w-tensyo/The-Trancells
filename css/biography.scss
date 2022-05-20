@@ -1,0 +1,334 @@
+@media screen and (max-width: 750px){
+  .biographyFirstView{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #333333;
+    &-Img{
+      height: 200px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
+
+  .biography{
+    &-content{
+      position: relative;
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+      &-infoArea{
+        position: absolute;
+        z-index: 600;
+        &.odd{
+          text-align: left;
+          bottom: 20px;
+          left: 20px;
+        }
+        &.even{
+          text-align: right;
+          color: #F5F5F5;
+          top: 20px;
+          right: 20px;
+        }
+        &-part{
+          color: #F5F5F5;
+          font-size: 1.2rem;
+          line-height: 24px;
+        }
+        &-name{
+          color: #F5F5F5;
+          font-size: 2.6rem;
+          font-weight: bolder;
+        }
+        &-border-odd{
+          display: block;
+          width: 180px;
+          height: 2px;
+          background-color: #F5F5F5;
+          margin-right: 0px;
+          margin-left: auto;
+        }
+        &-border-even{
+          display: block;
+          width: 180px;
+          height: 2px;
+          background-color: #F5F5F5;
+          margin-right: auto;
+          margin-left: 0px;
+        }
+        &-SNS{
+          display: flex;
+          margin-top: 5px;
+          &.even{
+            justify-content:end;
+          }
+          &.odd{
+            justify-content:start;
+
+          }
+          &-Icon{
+            display: inline;
+            font-size: 2.4rem;
+            color: #F5F5F5;
+            &.even{
+              color: #F5F5F5;
+              transition: 0.2s;
+              margin-left: 12px;
+            }
+            &.odd{
+              color: #F5F5F5;
+              transition: 0.2s;
+              margin-left: 12px;
+            }
+            &.even:hover{
+              color: #ff770099;
+            }
+            &.odd:hover{
+              color: #a9000099;
+            }
+          }
+          &.odd{
+            text-align: right;
+          }
+        }
+      }
+      &-Img{
+        position: relative;
+        width: 100%;
+      }
+    }
+  }
+  .odd{
+    background-color: #E5D09900;
+
+  }
+  .even{
+    background-color: #33333300;
+  }
+}
+
+@media screen and (min-width: 751px) and ( max-width:1240px) {
+  .biographyFirstView{
+    position: relative;
+    width: 100%;
+    height: 624px;
+    &-Img{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
+
+  .biography{
+    &-content{
+      width: 100%;
+      height: 400px;
+      display: flex;
+      background-color: #333333;
+      font-family: 'Roboto', sans-serif;
+      &-infoArea{
+        width: calc(100% - 440px);
+        padding: 119px 20px;
+        &.odd{
+          text-align: right;
+          color: #B08A00;
+        }
+        &.even{
+          text-align: left;
+          color: #F5F5F5;
+        }
+        &-part{
+          font-size: 2rem;
+          line-height: 52px;
+          font-weight: lighter;
+          margin-bottom: 10px;
+          margin-right: 20px;
+        }
+        &-name{
+          font-size: 6.4rem;
+          line-height: 80px;
+          font-weight: bolder;
+        }
+        &-border-odd{
+          display: block;
+          width: 400px;
+          height: 2px;
+          background-color: #B08A00;
+          margin-right: 0px;
+          margin-left: auto;
+        }
+        &-border-even{
+          display: block;
+          width: 400px;
+          height: 2px;
+          background-color: #F5F5F5;
+          margin-right: auto;
+          margin-left: 0px;
+        }
+        &-SNS{
+          display: flex;
+          &.even{
+            justify-content:start;
+          }
+          &.odd{
+            justify-content:end;
+
+          }
+          &-Icon{
+            display: inline;
+            font-size: 4.0rem;
+            padding: 7px 0px;
+            &.even{
+              color: #F5F5F5;
+              transition: 0.2s;
+              margin-right: 20px;
+            }
+            &.odd{
+              color: #B08A00;
+              transition: 0.2s;
+              margin-left: 20px;
+            }
+            &.even:hover{
+              color: #ff770099;
+            }
+            &.odd:hover{
+              color: #a9000099;
+            }
+          }
+          &.odd{
+            text-align: right;
+          }
+        }
+      }
+      &-Img{
+        width: 400px;
+        height: 400px;
+      }
+    }
+  }
+  .odd{
+    background-color: #E5D099;
+
+  }
+  .even{
+    background-color: #333333;
+  }
+}
+
+@media screen and (min-width: 1241px){
+  .biographyFirstView{
+    position: relative;
+    width: 100%;
+    height: 624px;
+    &-Img{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
+
+  .biography{
+    &-content{
+      width: 100%;
+      height: 600px;
+      display: flex;
+      background-color: #333333;
+      font-family: 'Roboto', sans-serif;
+      &-infoArea{
+        width: calc(100% - 640px);
+        padding: 119px 20px;
+        &.odd{
+          text-align: right;
+          color: #B08A00;
+        }
+        &.even{
+          text-align: left;
+          color: #F5F5F5;
+        }
+        &-part{
+          font-size: 3.6rem;
+          line-height: 48px;
+          font-weight: lighter;
+          margin-bottom: 10px;
+          margin-right: 20px;
+        }
+        &-name{
+          font-size: 9.6rem;
+          line-height: 120px;
+          font-weight: bolder;
+        }
+        &-border-odd{
+          display: block;
+          width: 400px;
+          height: 2px;
+          background-color: #B08A00;
+          margin-right: 0px;
+          margin-left: auto;
+        }
+        &-border-even{
+          display: block;
+          width: 400px;
+          height: 2px;
+          background-color: #F5F5F5;
+          margin-right: auto;
+          margin-left: 0px;
+        }
+        &-SNS{
+          display: flex;
+          &.even{
+            justify-content:start;
+          }
+          &.odd{
+            justify-content:end;
+
+          }
+          &-Icon{
+            display: inline;
+            font-size: 4.0rem;
+            padding: 7px 0px;
+            &.even{
+              color: #F5F5F5;
+              transition: 0.2s;
+              margin-right: 20px;
+            }
+            &.odd{
+              color: #B08A00;
+              transition: 0.2s;
+              margin-left: 20px;
+            }
+            &.even:hover{
+              color: #ff770099;
+            }
+            &.odd:hover{
+              color: #a9000099;
+            }
+          }
+          &.odd{
+            text-align: right;
+          }
+        }
+      }
+      &-Img{
+        width: 600px;
+        height: 600px;
+      }
+    }
+  }
+  .odd{
+    background-color: #E5D099;
+
+  }
+  .even{
+    background-color: #333333;
+  }
+}

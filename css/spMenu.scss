@@ -1,0 +1,138 @@
+@media screen and (max-width: 950px){
+  /* ここから下がハンバーガーメニューに関するCSS */
+    
+  /* チェックボックスを非表示にする */
+  .drawer_hidden {
+    display: none;
+  }
+
+  /* ハンバーガーアイコンの設置スペース */
+  .drawer_open {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;/* 重なり順を一番上にする */
+    cursor: pointer;
+  }
+
+  /* ハンバーガーメニューのアイコン */
+  .drawer_open span,
+  .drawer_open span:before,
+  .drawer_open span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    border-radius: 3px;
+    background: #f5f5f5;
+    transition: 0.5s;
+    position: absolute;
+  }
+
+  /* 三本線の一番上の棒の位置調整 */
+  .drawer_open span:before {
+    width: 30px;
+    bottom: 8px;
+  }
+
+  /* 三本線の中央棒の位置調整 */
+  .drawer_open span{
+    width: 25px;
+  }
+
+  /* 三本線の一番下の棒の位置調整 */
+  .drawer_open span:after {
+    width: 20px;
+    top: 8px;
+  }
+
+  /* アイコンがクリックされたら真ん中の線を透明にする */
+  #drawer_input:checked ~ .drawer_open span {
+    background: rgba(255, 255, 255, 0);
+  }
+
+  /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+  #drawer_input:checked ~ .drawer_open span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+    background-color: #333;
+    width: 25px;
+  }
+
+  #drawer_input:checked ~ .drawer_open span::after {
+    top: 0;
+    transform: rotate(-45deg);
+    background-color: #333;
+    width: 25px;
+  }
+
+  .nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /* メニューのデザイン*/
+  .navContent {
+    display: block;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    padding-top: 50px;
+    top: 0;
+    right: 100%; /* メニューを画面の外に飛ばす */
+    z-index: 99;
+    background-color: #F5F5F5;
+    transition: 0.5s;
+  }
+
+  /* メニュー黒ポチを消す */
+  .navList {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .navItem {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    a {
+      padding:0 20px;
+      display: block;
+      color: #B08A00;
+      text-decoration: none;
+      background-color: #F5F5F5;
+      font-weight: bold;
+      font-size: 1.6rem;
+      letter-spacing: 0.4rem;
+      transition: 0.5s;
+      .theTrancells{
+        letter-spacing: 0.1rem;
+      }
+    }
+    a:hover{
+      background-color: #E5D099;
+      letter-spacing: 0.7rem;
+    }
+  }
+
+  /* アイコンがクリックされたらメニューを表示 */
+  #drawer_input:checked ~ .navContent {
+    left: 0;/* メニューを画面に入れる */
+  }
+}
+
+@media screen and (min-width: 951px){
+    /* チェックボックスを非表示にする */
+    .drawer_hidden {
+      display: none;
+    }
+    .nav{
+      display: none;
+    }
+    /* メニューのデザイン*/
+    .navContent {
+      display: none;
+    }
+}
