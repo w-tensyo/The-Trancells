@@ -228,6 +228,10 @@
   }
 }
 
+.titleCase2 {
+  font-size: 2.0rem;
+}
+
 @media screen and (min-width: 801px) {
   .scheduleFirstView {
     position: relative;
@@ -468,5 +472,9 @@
   .schedule-Container-Detail.even {
     background-color: #333333;
   }
+}
+
+.titleCase2 {
+  font-size: 2.0rem;
 }
 /*# sourceMappingURL=schedule.css.map */
