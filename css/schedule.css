@@ -141,6 +141,12 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .schedule-Container-Detail-Right-ImgCustom {
+    height: 295px;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
   .schedule-Container-Detail-Left {
     width: 225px;
     padding: 10px;
@@ -389,6 +395,12 @@
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .schedule-Container-Detail-Right-ImgCustom {
+    height: 295px;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .schedule-Container-Detail-Left {
     width: 225px;
