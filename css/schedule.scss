@@ -129,6 +129,11 @@
             width: 100%;
             object-fit: cover;
           }
+          &-ImgCustom{
+            height: 295px;
+            width: 100%;
+            object-fit: contain;
+          }
         }
         &-Left{
           width: 225px;
@@ -359,6 +364,11 @@
           &-Img{
             width: 100%;
             object-fit: cover;
+          }
+          &-ImgCustom{
+            height: 295px;
+            width: 100%;
+            object-fit: contain;
           }
         }
         &-Left{
