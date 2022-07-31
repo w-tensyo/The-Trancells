@@ -82,6 +82,9 @@
             }
             &-Actor{
               font-size: 1.2rem;
+              .actV2{
+                font-size: 1.0rem;
+              }
             }
           }
         }
@@ -222,6 +225,9 @@
 .titleCase2{
   font-size: 2.0rem;
 }
+.titleCase3{
+  font-size: 1.8rem;
+}
 
 @media screen and (min-width: 801px){
   .scheduleFirstView{
@@ -314,6 +320,9 @@
             }
             &-Actor{
               font-size: 1.2rem;
+              .actV2{
+                font-size: 1.0rem;
+              }
             }
           }
         }
@@ -456,4 +465,7 @@
 }
 .titleCase2{
   font-size: 2.0rem;
+}
+.titleCase3{
+  font-size: 1.8rem;
 }
