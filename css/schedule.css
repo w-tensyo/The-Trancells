@@ -92,6 +92,9 @@
   .scheduleFirstView-Contents-Detail-Left-Act-Actor {
     font-size: 1.2rem;
   }
+  .scheduleFirstView-Contents-Detail-Left-Act-Actor .actV2 {
+    font-size: 1.0rem;
+  }
   .schedule {
     position: relative;
     padding-bottom: 30px;
@@ -237,6 +240,10 @@
   font-size: 2.0rem;
 }
 
+.titleCase3 {
+  font-size: 1.8rem;
+}
+
 @media screen and (min-width: 801px) {
   .scheduleFirstView {
     position: relative;
@@ -341,6 +348,9 @@
   }
   .scheduleFirstView-Contents-Detail-Left-Act-Actor {
     font-size: 1.2rem;
+  }
+  .scheduleFirstView-Contents-Detail-Left-Act-Actor .actV2 {
+    font-size: 1.0rem;
   }
   .schedule {
     position: relative;
@@ -490,5 +500,9 @@
 
 .titleCase2 {
   font-size: 2.0rem;
+}
+
+.titleCase3 {
+  font-size: 1.8rem;
 }
 /*# sourceMappingURL=schedule.css.map */
