@@ -42,16 +42,12 @@
     width: 100%;
   }
   .activitie-Container.spView {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
   }
   .activitie-Container-Music {
     padding: 20px 13px 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .activitie-Container-Music-Right {
@@ -103,8 +99,6 @@
   .activitie-Container-Podcast {
     width: 560px;
     padding: 25px 13px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .activitie-Container-Podcast-Right iframe {
@@ -151,8 +145,6 @@
     width: 100%;
     height: 40px;
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .activitie-Container-Podcast-Left-Btn-border {
@@ -177,36 +169,27 @@
     text-decoration: none;
     font-size: 1.8rem;
     letter-spacing: 0.2rem;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   .activitie-Container-Podcast-Left-Btn a:hover {
     letter-spacing: 0.4rem;
   }
   .activitie-Container::-webkit-scrollbar {
-    height: 12px;
-    /* スクロールバーの高さ */
+    height: 12px; /* スクロールバーの高さ */
   }
   .activitie-Container::-webkit-scrollbar-thumb {
-    background: #4f410299;
-    /* ツマミの色 */
-    border-radius: 15px;
-    /* ツマミ両端の丸み */
+    background: rgba(79, 65, 2, 0.6); /* ツマミの色 */
+    border-radius: 15px; /* ツマミ両端の丸み */
   }
   .activitie-Container::-webkit-scrollbar-thumb {
-    background: #d7b441dc;
-    /* ツマミの色 */
-    border-radius: 15px;
-    /* ツマミ両端の丸み */
+    background: rgba(215, 180, 65, 0.862745098); /* ツマミの色 */
+    border-radius: 15px; /* ツマミ両端の丸み */
   }
   .activitie-Container::-webkit-scrollbar-track {
-    background: #deceb205;
-    /* トラックの色 */
-    border-radius: 15px;
-    /* トラック両端の丸み */
+    background: rgba(222, 206, 178, 0.0196078431); /* トラックの色 */
+    border-radius: 15px; /* トラック両端の丸み */
   }
 }
-
 @media screen and (min-width: 801px) {
   .activitieFirstView {
     position: relative;
@@ -251,16 +234,12 @@
     padding-bottom: 20px;
     width: calc(100% - 100px);
     overflow-x: scroll;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .activitie-Container-Music {
     width: 560px;
     height: 315px;
     margin-right: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .activitie-Container-Music-Right-Img {
@@ -311,8 +290,6 @@
   .activitie-Container-Podcast {
     width: 560px;
     margin-right: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .activitie-Container-Podcast-Right iframe {
@@ -359,8 +336,6 @@
     width: 100%;
     height: 40px;
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .activitie-Container-Podcast-Left-Btn-border {
@@ -385,33 +360,24 @@
     text-decoration: none;
     font-size: 1.8rem;
     letter-spacing: 0.2rem;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   .activitie-Container-Podcast-Left-Btn a:hover {
     letter-spacing: 0.4rem;
   }
   .activitie-Container::-webkit-scrollbar {
-    height: 12px;
-    /* スクロールバーの高さ */
+    height: 12px; /* スクロールバーの高さ */
   }
   .activitie-Container::-webkit-scrollbar-thumb {
-    background: #4f410299;
-    /* ツマミの色 */
-    border-radius: 15px;
-    /* ツマミ両端の丸み */
+    background: rgba(79, 65, 2, 0.6); /* ツマミの色 */
+    border-radius: 15px; /* ツマミ両端の丸み */
   }
   .activitie-Container::-webkit-scrollbar-thumb {
-    background: #d7b441dc;
-    /* ツマミの色 */
-    border-radius: 15px;
-    /* ツマミ両端の丸み */
+    background: rgba(215, 180, 65, 0.862745098); /* ツマミの色 */
+    border-radius: 15px; /* ツマミ両端の丸み */
   }
   .activitie-Container::-webkit-scrollbar-track {
-    background: #deceb205;
-    /* トラックの色 */
-    border-radius: 15px;
-    /* トラック両端の丸み */
+    background: rgba(222, 206, 178, 0.0196078431); /* トラックの色 */
+    border-radius: 15px; /* トラック両端の丸み */
   }
-}
-/*# sourceMappingURL=activities.css.map */
+}/*# sourceMappingURL=activities.css.map */

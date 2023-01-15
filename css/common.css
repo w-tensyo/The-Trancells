@@ -1,6 +1,6 @@
 body {
   background-color: #333333;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .bgImg {
@@ -24,11 +24,9 @@ h2 {
   text-align: center;
   letter-spacing: -0.2rem;
 }
-
 h2.oddH2Title {
   color: #F5F5F5;
 }
-
 h2.evenH2Title {
   color: #333333;
 }
@@ -42,22 +40,18 @@ h4 {
   height: 1px;
   margin: 0 auto;
 }
-
 .borderLine.addBorderFirstView {
   background-color: #F5F5F5;
   width: 350px;
 }
-
 .borderLine.addBorderLatestRelease {
   background-color: #F5F5F5;
   width: 145px;
 }
-
 .borderLine.addBorderNextStage {
   background-color: #B08A00;
   width: 350px;
 }
-
 .borderLine.addBorderPodCast {
   background-color: #F5F5F5;
   width: 350px;
@@ -73,21 +67,17 @@ h4 {
   font-weight: bold;
   letter-spacing: 0.3rem;
 }
-
 .andMoreBtn.oddContent {
   background-color: #F5F5F5;
   color: #333333;
 }
-
 .andMoreBtn.oddContent a {
   text-decoration: none;
   color: #B08A00;
 }
-
 .andMoreBtn.evenContent {
   background-color: #E5D099;
 }
-
 .andMoreBtn.evenContent a {
   text-decoration: none;
   color: #B08A00;
@@ -117,16 +107,13 @@ h4 {
     height: 50px;
     width: 150px;
     margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .footer-SNS-Icon {
     margin: 15px 0;
     color: #F5F5F5;
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
   .footer-Copyright {
     color: #F5F5F5;
@@ -135,7 +122,6 @@ h4 {
     font-size: 1.2rem;
   }
 }
-
 @media screen and (min-width: 801px) {
   .SP {
     display: none;
@@ -156,5 +142,4 @@ h4 {
   .footer.biography {
     background-color: #333333;
   }
-}
-/*# sourceMappingURL=common.css.map */
+}/*# sourceMappingURL=common.css.map */

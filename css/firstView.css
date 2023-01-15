@@ -70,7 +70,7 @@
     padding-right: 10px;
   }
   .firstView-Content-RightContent-Under.DistWord {
-    font-size: 2.0rem;
+    font-size: 2rem;
     margin-bottom: 5px;
   }
   .firstView-Content-RightContent-Under.Schedule {
@@ -85,9 +85,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, 0%);
-            transform: translate(-50%, 0%);
-    -webkit-transition: 0.5s;
+    transform: translate(-50%, 0%);
     transition: 0.5s;
   }
   .firstView-Content-RightContent-Img-Detail:hover {
@@ -97,8 +95,7 @@
   .firstView-Content-RightContent-Media {
     width: 100%;
     padding: 0 30px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
   }
   .firstView-Content-RightContent-Media-Char {
     margin-top: 10px;
@@ -114,8 +111,7 @@
     color: #B08A00;
     width: 100%;
     padding: 0 30px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
   }
   .firstView-Content-RightContent-Schedule-Date {
     font-size: 1.2rem;
@@ -131,7 +127,6 @@
     color: #b39800;
     font-weight: lighter;
     letter-spacing: 0rem;
-    -webkit-transition: 0.2s;
     transition: 0.2s;
   }
   .firstView-Content-RightContent-Schedule-Description a:hover {
@@ -139,12 +134,8 @@
     letter-spacing: 0rem;
   }
   .firstView-Content-RightContent-Btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     height: 60px;
     line-height: 60px;
     margin: 40px 30px 0px;
@@ -160,10 +151,9 @@
     text-align: center;
     line-height: 60px;
     color: #b39800;
-    font-size: 2.0rem;
+    font-size: 2rem;
     letter-spacing: 1rem;
     font-weight: lighter;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
     text-decoration: none;
   }
@@ -203,7 +193,8 @@
     width: 400px;
     line-height: 76px;
     height: 76px;
-    text-align-last: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
   }
   .firstViewTitleUnder-Sub.Top {
     font-size: 3.6rem;
@@ -224,7 +215,6 @@
     color: #B08A00;
   }
 }
-
 @media screen and (min-width: 801px) {
   .firstView {
     position: relative;
@@ -241,8 +231,6 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .firstView-Content-LeftContent {
@@ -284,7 +272,7 @@
     text-align: right;
   }
   .firstView-Content-RightContent-Under.DistWord {
-    font-size: 2.0rem;
+    font-size: 2rem;
     margin-bottom: 5px;
   }
   .firstView-Content-RightContent-Under.Schedule {
@@ -299,9 +287,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, 0%);
-            transform: translate(-50%, 0%);
-    -webkit-transition: 0.5s;
+    transform: translate(-50%, 0%);
     transition: 0.5s;
   }
   .firstView-Content-RightContent-Img-Detail:hover {
@@ -338,21 +324,16 @@
     color: #b39800;
     font-weight: lighter;
     letter-spacing: 0rem;
-    -webkit-transition: 0.2s;
     transition: 0.2s;
     text-decoration: none;
   }
   .firstView-Content-RightContent-Schedule-Description a:hover {
-    color: #b79b0099;
+    color: rgba(183, 155, 0, 0.6);
     letter-spacing: 0rem;
   }
   .firstView-Content-RightContent-Btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     position: absolute;
     bottom: 4px;
     width: 100%;
@@ -373,7 +354,6 @@
     font-size: 2.4rem;
     letter-spacing: 1rem;
     font-weight: lighter;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
     text-decoration: none;
   }
@@ -419,7 +399,8 @@
     width: 400px;
     line-height: 76px;
     height: 76px;
-    text-align-last: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
   }
   .firstViewTitleUnder-Sub.Top {
     font-size: 3.6rem;
@@ -445,5 +426,4 @@
   .firstViewFooter.biography {
     background-color: #333333;
   }
-}
-/*# sourceMappingURL=firstView.css.map */
+}/*# sourceMappingURL=firstView.css.map */
